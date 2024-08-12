@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 0.5em 0;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin: 0.3em 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+img {
+  width: 150px;
+  /* Bayrak resimlerinin genişliği */
+  height: auto;
+  border: 1px solid #ccc;
+  /* Bayrak resimlerinin kenarlığı */
+  border-radius: 5px;
+  /* Bayrak resimlerinin köşe yuvarlama */
+  margin-top: 0.5em;
+}
+
+.country-container {
+  background-color: hwb(0 24% 39% / 0.148);
+  /* Ülke bilgileri kutusunun arka plan rengi */
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  /* Köşe yuvarlama */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Gölge efekti */
+  width: 80%;
+  /* Genişlik */
+  max-width: 600px;
+  /* Maksimum genişlik */
+}

@@ -1,0 +1,76 @@
+.quiz {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#621BE7, #B131F3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.questionCard {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    word-wrap: break-word;
+}
+
+.questionCard-title {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    white-space: normal;
+    /* Bu satır, metnin normal şekilde sarılmasını sağlar */
+    font-size: 1.8rem;
+    /* Font boyutunu artırdık */
+}
+
+.questionCard-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /* Butonlar arasındaki boşluk */
+}
+
+.questionCard button {
+    flex: 1 1 calc(50% - 10px);
+    /* Butonların genişliğini ayarlar ve aralarındaki boşluğu hesaba katar */
+    margin: 0.3rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    /* Font boyutunu artırdık */
+    height: 50px;
+    /* Buton yüksekliğini artırdık */
+    transition: background-color 0.3s;
+}
+
+.questionCard button:hover {
+    background-color: lightgray;
+}
+
+.questionCard-timer {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
